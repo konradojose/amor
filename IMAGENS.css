@@ -1,0 +1,62 @@
+*{margin: 0;
+    }
+    
+header{
+    height: 200px;
+    background-color: aliceblue;
+    background-image: url(Capas.jpg);
+    background-repeat: no-repeat;
+    background-position: 845 312;
+    background-size: cover;
+    background-origin: content-box;
+
+}
+
+ul {
+    font-family: monospace;
+    display: flex;
+    gap: 72px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(5, 5, 5);
+    padding: 10px;
+    transition: 0.5s ease;
+}
+
+ul:hover li a {
+    color: #3085f4;
+}
+
+ul:hover li a:not(:hover) {
+    color: rgb(0, 0, 0);
+    opacity: 0.3;
+    filter: blur(1px);
+}
+
+.imagens-nossa {
+    display: flex;
+    height: 30rem;
+    gap: 1rem;
+}
+
+.imagens-nossa > div {
+flex: 1;
+border-radius: 1rem;
+background-position: center;
+background-repeat: no-repeat;
+background-size: auto 100%;
+transition: all .8s cubic-bezier(.25, .4, .45, 1);
+}
+
+.imagens-nossa > div:hover {
+flex: 2;
+}
