@@ -16,6 +16,7 @@ ul {
     font-family: monospace;
     display: flex;
     gap: 72px;
+    justify-content: space-around;
 }
 
 ul li {
